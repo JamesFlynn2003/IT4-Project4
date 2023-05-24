@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 24.99%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 49.99%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 74.99%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*='col-']{
+    width: 100%;
+     
+}
+
+
+
+head {
+	color: white;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	display: white;
+	max-width: 1024px;
+	margin: auto;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	max-width: 1024px;
+	margin: auto;
+}
+
+h3 {
+	font-size: 1.75em;
+	text-align: center;
+	color: white;
+	max-width: 1024px;
+	margin: auto;
+}
+
+p {
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	max-width: 1024px;
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	max-width: 1024px;
+	margin: auto;
+}
+
+.nav {
+	background-color: orange;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: black;
+	max-width: 1024px;
+	margin: auto;
+}
+
+.home h1{
+	color: white;
+}
+
+.home h2{
+	color: white;
+}
+
+.safety h2{
+	color: white;
+}
+
+.portfolio h2{
+	color: white;
+}
+
+.team ul{
+	text-align: center;
+	color: white;
+}
+
+.team h2{
+	text-align: center;
+	color: white;
+	
+}
+
+.team h3{
+	text-align: center;
+	color: white;
+}
+
+.project {
+	background-color: lightgray;
+	border-radius: 15px;
+	max-width: 1024px;
+	margin: auto;
+}
+
+.project p{
+	text-align: center;
+	color: black;
+}
+
+.project ol{
+	font-size: 1.5em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+	max-width: 1024px;
+	margin: auto;
+	background-color: orange;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: black;
+}
+
+.table h3{
+	color: black;
+}
+
+.table p{
+	color: black;
+}
+
+
+
+a:hover {
+  background-color: yellow;
+}
+
+a:active {
+  color: purple;
+}
+
+
+.hero {
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 50vh;
+	max-height: 600px;
+	position: absolute;
+	overflow: clip;
+}
+
+.home img {
+	border-radius: 8px;
+}
+
+.team img {
+	border-radius: 50%;
+	max-width: 200px;
+	margin: auto;
+}
+
+.weather {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 15px; /* Place the button 15px from the left */
+  max-width: 175px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 15px; /* Place the button 15px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 5px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
